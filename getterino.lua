@@ -5,7 +5,7 @@ local dennis = {}
 local jobro  = {}
 local both = {}
 
-URLS = {"http://web.archive.org/web/20090719212559/http://www.rctholland.nl/forum/viewtopic/24419"}
+--URLS = {"http://web.archive.org/web/20080323111510/http://www.rctholland.nl/forum/viewtopic/20964"}
 
 for _, url in pairs(URLS) do
 	CHECK(url, function(buff)
