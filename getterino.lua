@@ -1,7 +1,7 @@
 local URLS = require('legeturls');
 local CHECK = require('lecheckurl');
 
-local intr_file = io.open('intr_log')
+local intr_file = io.open('intr_log', 'w+')
 
 local dennis = {}
 local jobro  = {}
