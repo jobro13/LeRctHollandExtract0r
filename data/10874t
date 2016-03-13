@@ -1,0 +1,553 @@
+<html>
+	<head>
+
+
+<script type="text/javascript" src="/static/js/analytics.js"></script>
+<script type="text/javascript">archive_analytics.values.server_name="wwwb-app8.us.archive.org";archive_analytics.values.server_ms=95;</script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+
+		<title>RCT Holland :: Forum :: Parkhoekje :: Superman & Snas Presents</title>
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+		<meta http-equiv="content-language" content="nl-NL">
+		<meta name="author" content="Michel van Heijster <michel@rctholland.nl>">
+		<meta name="copyright" content="© 2001-2010">
+		<meta name="description" content="RCT Holland; misschien wel de beste Nederlandstalige RollerCoaster Tycoon website!">
+		<meta name="expires" content="Mon, 05 Jul 2010 16:47:17 GMT">	
+		<meta name="keywords" content="www.rctholland.nl,rctholland.nl,rctholland,RCT Holland,holland,belgië,benelux,nederland,nederlandstalig,rollercoaster,coaster,tycoon,rct,rollercoaster tycoon,added,attractions,added attractions,aa,uitbreidingsset,attracties,uitbreidingsset attracties,loopy,landscapes,loopy landscapes,ll,bochtige,banen,bochtige banen,rct2,rct 2,rollercoaster tycoon 2,rctII,rct II,rollercoaster tycoon II,chris,sawyer,chris sawyer,pretpark,attractie,attractiepark,achtbaan,achtbanen,Hasbro,Interactive,Hasbro Interactive,Microprose,Infogrames,spel,spellen,game,games,computerspel,computerspellen,sim,simulatie,pc,computer,download,downloads,baanontwerpen,parken,ontwerpen,tips,cheats,faq">
+		<meta name="revisit-after" content="7 days">
+		<meta name="robots" content="all">
+		<link rel="stylesheet" href="/web/20100705164720cs_/http://www.rctholland.nl/_private/css/default.css" type="text/css">
+		<script language="JavaScript" src="/web/20100705164720js_/http://www.rctholland.nl/_private/js/default.js"></script>
+		<script language="JavaScript" src="/web/20100705164720js_/http://www.rctholland.nl/_private/js/resize.js"></script>		
+	</head>
+<body onLoad="image_check(); MM_preloadImages('../images/menu/level1/home_hover.gif','../images/menu/level1/rct_hover.gif','../images/menu/level1/rct2_hover.gif','../images/menu/level1/rct3_hover.gif','../images/menu/level1/downloads_hover.gif','../images/menu/level1/forum_hover.gif','../images/menu/level1/extra_hover.gif','../images/menu/level1/about_hover.gif');">
+
+
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/disclaim-element.js" ></script>
+<script type="text/javascript" src="/static/js/graph-calc.js" ></script>
+<script type="text/javascript">//<![CDATA[
+var __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){
+var wbPrefix = "/web/";
+var wbCurrentUrl = "http://www.rctholland.nl/forum/viewtopic/10874";
+
+var firstYear = 1996;
+var displayDay = "5";
+var displayMonth = "Jul";
+var displayYear = "2010";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var $D=document,$=function(n){return document.getElementById(n)};
+var trackerVal,curYear = -1,curMonth = -1;
+var yearTracker,monthTracker;
+function showTrackers(val) {
+  if (val===trackerVal) return;
+  var $ipp=$("wm-ipp");
+  var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+  if (val) {
+    $ipp.className="hi";
+  } else {
+    $ipp.className="";
+    $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+  }
+  yearTracker.style.display=val?"inline":"none";
+  monthTracker.style.display=val?"inline":"none";
+  trackerVal = val;
+}
+function trackMouseMove(event,element) {
+  var eventX = getEventX(event);
+  var elementX = getElementX(element);
+  var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+  var monthOff = xOff % yearImgWidth;
+
+  var year = Math.floor(xOff / yearImgWidth);
+  var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+  // 1 extra border pixel at the left edge of the year:
+  var month = (year * 12) + monthOfYear;
+  var day = monthOff % 2==1?15:1;
+  var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+    zeroPad(day,2) + "000000";
+
+  $("displayYearEl").innerHTML=year+firstYear;
+  $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+  // looks too jarring when it changes..
+  //$("displayDayEl").innerHTML=zeroPad(day,2);
+  var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+  $("wm-graph-anchor").href=url;
+
+  if(curYear != year) {
+    var yrOff = year * yearImgWidth;
+    yearTracker.style.left = yrOff + "px";
+    curYear = year;
+  }
+  if(curMonth != month) {
+    var mtOff = year + (month * monthImgWidth) + 1;
+    monthTracker.style.left = mtOff + "px";
+    curMonth = month;
+  }
+}
+function hideToolbar() {
+  $("wm-ipp").style.display="none";
+}
+function bootstrap() {
+  var $spk=$("wm-ipp-sparkline");
+  yearTracker=$D.createElement('div');
+  yearTracker.className='yt';
+  with(yearTracker.style){
+    display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+  }
+  monthTracker=$D.createElement('div');
+  monthTracker.className='mt';
+  with(monthTracker.style){
+    display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+  }
+  $spk.appendChild(yearTracker);
+  $spk.appendChild(monthTracker);
+
+  var $ipp=$("wm-ipp");
+  $ipp&&disclaimElement($ipp);
+}
+return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+})(525, 27, 25, 2);//]]>
+</script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+</style>
+<div id="wm-ipp" lang="en" style="display:none;">
+
+<div style="position:fixed;left:0;top:0;width:100%!important">
+<div id="wm-ipp-inside">
+   <table style="width:100%;"><tbody><tr>
+   <td id="wm-logo">
+       <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a>
+   </td>
+   <td class="c">
+       <table style="margin:0 auto;"><tbody><tr>
+       <td class="u" colspan="2">
+       <form target="_top" method="get" action="/web/form-submit.jsp" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www.rctholland.nl/forum/viewtopic/10874" style="width:400px;" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20100705164720" /><input type="submit" value="Go" /><span id="wm_tb_options" style="display:block;"></span></form>
+       </td>
+       <td class="n" rowspan="2">
+           <table><tbody>
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr class="m">
+           	<td class="b" nowrap="nowrap">
+		
+		    <a href="/web/20071215103741/http://www.rctholland.nl/forum/viewtopic/10874" title="15 Dec 2007">DEC</a>
+		
+		</td>
+		<td class="c" id="displayMonthEl" title="You are here: 16:47:20 Jul 5, 2010">JUL</td>
+		<td class="f" nowrap="nowrap">
+		
+		    Aug
+		
+                </td>
+	    </tr>
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr class="d">
+               <td class="b" nowrap="nowrap">
+               
+                   <a href="/web/20071215103741/http://www.rctholland.nl/forum/viewtopic/10874" title="10:37:41 Dec 15, 2007"><img src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a>
+               
+               </td>
+               <td class="c" id="displayDayEl" style="width:34px;font-size:24px;" title="You are here: 16:47:20 Jul 5, 2010">5</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   <img src="/static/images/toolbar/wm_tb_nxt_off.png" alt="Next capture" width="14" height="16" border="0"/>
+               
+	       </td>
+           </tr>
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr class="y">
+	       <td class="b" nowrap="nowrap">
+               
+                   <a href="/web/20071215103741/http://www.rctholland.nl/forum/viewtopic/10874" title="15 Dec 2007"><strong>2007</strong></a>
+               
+               </td>
+               <td class="c" id="displayYearEl" title="You are here: 16:47:20 Jul 5, 2010">2010</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   2011
+               
+	       </td>
+           </tr>
+           </tbody></table>
+       </td>
+       </tr>
+       <tr>
+       <td class="s">
+           <a class="t" href="/web/20100705164720*/http://www.rctholland.nl/forum/viewtopic/10874" title="See a list of every capture for this URL">2 captures</a>
+           <div class="r" title="Timespan for captures of this URL">15 Dec 07 - 5 Jul 10</div>
+       </td>
+       <td class="k">
+       <a href="" id="wm-graph-anchor">
+       <div id="wm-ipp-sparkline" title="Explore captures for this URL">
+	 <img id="sparklineImgId" alt="sparklines"
+		 onmouseover="__wm.st(1)" onmouseout="__wm.st(0)"
+		 onmousemove="__wm.mv(event,this)"
+		 width="525"
+		 height="27"
+		 border="0"
+		 src="/web/jsp/graph.jsp?graphdata=525_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000000000000_2004:-1:000000000000_2005:-1:000000000000_2006:-1:000000000000_2007:-1:000000000001_2008:-1:000000000000_2009:-1:000000000000_2010:6:000000100000_2011:-1:000000000000_2012:-1:000000000000_2013:-1:000000000000_2014:-1:000000000000_2015:-1:000000000000_2016:-1:000000000000" />
+       </div>
+       </a>
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td class="r">
+       <a href="#close" onclick="__wm.h();return false;" style="background-image:url(/static/images/toolbar/wm_tb_close.png);top:5px;" title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" style="background-image:url(/static/images/toolbar/wm_tb_help.png);bottom:5px;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+</div>
+</div>
+</div>
+<script type="text/javascript">__wm.bt();</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+  <tr> 
+    <td width="100%" height="90"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="0" bgcolor="#ae1b6d" background="/web/20100705164720im_/http://www.rctholland.nl/images/layout/top_left.gif"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/logo_top.gif" width="200" height="90"></td>
+          <td width="100%" bgcolor="#ae1b6d" background="/web/20100705164720im_/http://www.rctholland.nl/images/layout/top_middle.gif"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/logo_right.gif" width="350" height="90"></td>
+          <td width="0" bgcolor="#ae1b6d"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/top_right.gif" width="200" height="90"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td width="100%" height="10"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="0" height="10" bgcolor="#999999" background="/web/20100705164720im_/http://www.rctholland.nl/images/layout/top2_left.gif"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/logo_bottom.gif" width="200" height="10"></td>
+          <td width="100%" height="10"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/transparent.gif" width="1" height="1"></td>
+          <td width="0" height="10"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/top2_right.gif" width="200" height="10"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td width="100%" bgcolor="#F0F0F0" background="/web/20100705164720im_/http://www.rctholland.nl/images/layout/nav_back.gif" height="22" align="center"><a href="/web/20100705164720/http://www.rctholland.nl/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('menu1','','http://www.rctholland.nl/images/menu/level1/home_hover.gif',1)"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/home.gif" height="22" name="menu1" border="0" alt="Home"></a><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/separator.gif" height="22"><a href="/web/20100705164720/http://www.rctholland.nl/rct/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('menu2','','http://www.rctholland.nl/images/menu/level1/rct_hover.gif',1)"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/rct.gif" height="22" name="menu2" border="0" alt="Over RollerCoaster Tycoon"></a><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/separator.gif" height="22"><a href="/web/20100705164720/http://www.rctholland.nl/rct2/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('menu3','','http://www.rctholland.nl/images/menu/level1/rct2_hover.gif',1)"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/rct2.gif" height="22" name="menu3" border="0" alt="Over RollerCoaster Tycoon 2"></a><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/separator.gif" height="22"><a href="/web/20100705164720/http://www.rctholland.nl/rct3/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('menu4','','http://www.rctholland.nl/images/menu/level1/rct3_hover.gif',1)"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/rct3.gif" height="22" name="menu4" border="0" alt="Over RollerCoaster Tycoon 3"></a><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/separator.gif" height="22"><a href="/web/20100705164720/http://www.rctholland.nl/downloads/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('menu5','','http://www.rctholland.nl/images/menu/level1/downloads_hover.gif',1)"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/downloads.gif" height="22" name="menu5" border="0" alt="Downloads"></a><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/separator.gif" height="22"><a href="/web/20100705164720/http://www.rctholland.nl/forum/"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/forum_hover.gif" height="22" name="menu6" alt="Forum" border="0"></a><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/separator.gif" height="22"><a href="/web/20100705164720/http://www.rctholland.nl/extra/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('menu7','','http://www.rctholland.nl/images/menu/level1/extra_hover.gif',1)"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/extra.gif" height="22" name="menu7" border="0" alt="Extra"></a><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/separator.gif" height="22"><a href="/web/20100705164720/http://www.rctholland.nl/about/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('menu8','','http://www.rctholland.nl/images/menu/level1/about_hover.gif',1)"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/menu/level1/about.gif" height="22" name="menu8" border="0" alt="Over ons"></a></td>
+  </tr>
+  <tr> 
+    <td width="100%" height="45"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="45">
+        <tr> 
+          <td width="0" height="40" bgcolor="#ADADAD" background="/web/20100705164720im_/http://www.rctholland.nl/images/layout/top3_left.gif" valign="bottom" align="center"> <!-- loading module [forum\misc\online] ver. 1.0.0 23/12/2001 -->
+31 bezoekers <a href="/web/20100705164720/http://www.rctholland.nl/members/online.php">online</a><br>Niet ingelogd. <a href="/web/20100705164720/http://www.rctholland.nl/members/login.php?ref=/forum/viewtopic.php/10874">Inloggen</a> of <a href="/web/20100705164720/http://www.rctholland.nl/members/register.php?ref=/forum/viewtopic.php/10874">Registreren</a>.
+<!-- module [forum\misc\online] finished -->
+</td>
+          <td width="0" height="40"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/transparent.gif" width="5" height="43"></td>
+          <td width="100%" height="40"><b>U bevindt zich hier:</b><br><a href='/web/20100705164720/http://www.rctholland.nl/forum/'>Forum</a> &raquo; <a href='/web/20100705164720/http://www.rctholland.nl/forum/viewforum/5'>Parkhoekje</a> &raquo; Superman & Snas Presents</td>
+          <td width="0" height="40"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/transparent.gif" width="5" height="43"></td>
+          <td width="0" height="40"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/top3_right.gif" width="200" height="43"></td>
+        </tr>
+        <tr> 
+          <td width="0" height="5" bgcolor="#CCCCCC"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/menu_top.gif" width="200" height="5"></td>
+          <td width="0" height="5"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/transparent.gif" width="5" height="5"></td>
+          <td width="100%" height="5"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/transparent.gif" width="140" height="5"></td>
+          <td width="0" height="5"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/transparent.gif" width="5" height="5"></td>
+          <td width="0" height="5"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/transparent.gif" width="200" height="5"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td width="100%" height="100%" valign="top" style="background-image: url(/web/20100705164720im_/http://www.rctholland.nl/images/layout/menu_back.gif); background-repeat: repeat-y;"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="0" valign="top" background="/web/20100705164720im_/http://www.rctholland.nl/images/layout/menu_back.gif" bgcolor="#CCCCCC"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/transparent.gif" width="200" height="1" border="0"><br>		   		    <div id="sidebar_menu">
+			 
+<h2>Nieuws</h2>
+<div class="section">
+	<dl>
+Binnenkort weer terug.	</dl>
+</div>			 
+<h2>Forum</h2>
+<div class="section">
+	<dl>
+		<dt>15:28</dt>
+		<dd><a href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/579313#579313" title="[RCT 3] Laguna een Maurer S&ouml;hne Launched X-car. (door leonidas)">[RCT 3] Laguna een Maurer ...</a></dd>
+		<dt>15:18</dt>
+		<dd><a href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/579312#579312" title="WK Voetbaltopic (door tijger0407)">WK Voetbaltopic</a></dd>
+		<dt>15:18</dt>
+		<dd><a href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/579311#579311" title="daz3d figuren via decimater plugin naar RCT3 (door fixme)">daz3d figuren via decimate...</a></dd>
+		<dt>15:16</dt>
+		<dd><a href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/579310#579310" title="darkride coaster materiaal, welke pakketen zijn de moeite &amp; waar te vinden? (door fixme)">darkride coaster materiaal...</a></dd>
+		<dt>15:15</dt>
+		<dd><a href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/579309#579309" title="enkele vragen omtrent het bouwen van 3d modellen (door fixme)">enkele vragen omtrent het ...</a></dd>
+		<dt>15:06</dt>
+		<dd><a href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/579307#579307" title="[RCT3] jordy_rym rides productions (door ColdFire )">[RCT3] jordy_rym rides pro...</a></dd>
+		<dt>14:45</dt>
+		<dd><a href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/579305#579305" title="Het enige echte ouwehoertopic #52 (door Gianni)">Het enige echte ouwehoerto...</a></dd>
+		<dt>14:44</dt>
+		<dd><a href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/579304#579304" title="rct3 thema (door Snas)">rct3 thema</a></dd>
+		<dt>14:42</dt>
+		<dd><a href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/579302#579302" title="NL rct3! (door Snas)">NL rct3!</a></dd>
+		<dt>14:30</dt>
+		<dd><a href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/579301#579301" title="[RCT3] na downloaden loopt hij vast (door Fenalor)">[RCT3] na downloaden loopt...</a></dd>
+	</dl>
+</div>			 
+<h2>Downloads</h2>
+<div class="section">
+	<dl>
+Binnenkort weer terug.	</dl>
+</div>		    </div>
+		   		   		  </td>
+		  <td width="0"><font size="1"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/transparent.gif" width="5" height="5"></font></td>
+		  <td width="100%" valign="top">
+		  	      		     <div class="explain" style="float: right; margin: 0px; margin-bottom: 10px; padding: 4px; border: 1px solid #E0E0E0">
+			  <!-- <a href="/forum/at.php">Active Topics</a> &middot; -->
+			  <a href="/web/20100705164720/http://www.rctholland.nl/forum/faq.php">FAQ</a> &middot;
+			  <a href="/web/20100705164720/http://www.rctholland.nl/forum/search.php">Zoeken</a> &middot;
+		      <a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=edit">Wijzig profiel</a> &middot;
+		      <a href="/web/20100705164720/http://www.rctholland.nl/members/prefs.php">Wijzig voorkeuren</a> &middot;
+              <a href="/web/20100705164720/http://www.rctholland.nl/members/login.php?ref=/forum/viewtopic.php/10874">Inloggen</a>			   &middot; <a href="/web/20100705164720/http://www.rctholland.nl/members/register.php?mode=agreement&amp;ref=/forum/viewtopic.php/10874">Registreren</a>			 </div>
+		  
+<h1 style="margin-bottom: 0px">Superman & Snas Presents</h1>
+<p><br><a href="/web/20100705164720/http://www.rctholland.nl/forum/newtopic.php?forum_id=5">Nieuw onderwerp</a>
+</p>
+
+<form action="/web/20100705164720/http://www.rctholland.nl/forum/reply.php" method="POST" onSubmit="return submitTopicAdmin();">
+<table border="0" cellpadding="1" cellspacing="0" align="CENTER" valign="TOP" width="100%" style="clear: both;">
+	<tr>
+		<td bgcolor="#AE1B6D">
+			<table border="0" cellpadding="3" cellspacing="1" width="100%">
+				<tr bgcolor="#DFDFDF" align="LEFT">
+					<td width="150"><font size="1" color="#000000">Auteur</font></td>
+					<td><font size="1"color="#000000">&nbsp;</font></td>
+				</tr>
+
+<TR BGCOLOR="#F0F0F0" ALIGN="LEFT">
+<TD width="150" valign=top><FONT COLOR="#000000"><b>Superman</b></FONT><BR><FONT SIZE="1" COLOR="#000000"><B>Godlike</B></font><BR><FONT SIZE="1" COLOR="#000000">Lid # 2135</font><BR><BR><FONT SIZE="1" COLOR="#000000">Geregistreerd op: 26-06-2003</FONT><br><FONT SIZE="1" COLOR="#000000">Berichten: 1130</FONT><BR><FONT SIZE="1" COLOR="#000000">Locatie: Asten<br></FONT></td><TD><a name="189605" href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/189605#189605"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/misc/file_new.gif" border="0"></a><FONT SIZE="1" COLOR="#000000">Geplaatst: 29-02-2004 om 17:05&nbsp;&nbsp;&nbsp<script type="text/javascript">postids[postids.length]=['189605']</script><hr width="100%" noshade size="1"></font>
+
+<FONT COLOR="#000000"><!-- BBCode Start --><IMG SRC="/web/20100705164720im_/http://groups.msn.com/_Secure/0TAAaA1EW7DpUVArUWGiph03wEoGFScVXLxp!04CEjCx!bPpuVvnleA4Gmzv*5*HkCXRENrFWZ*!7SpZ5TazrPDwGsSlubs6QXfAl1hKn4sjxFzBubAgukA/S%20%26%20S.jpg?dc=4675461861862282029" BORDER="0"><!-- BBCode End --><BR><BR>Presents: a two men park.<BR><BR>komende tijd kun je gaan genieten van ons park waarbij ik het voortouw zal nemen omdat snas een paar dagen weg is.<BR><BR>screens komen nog, nog even uploaden<BR><BR>mijn promenade word niet gekopieërd maar het idee word wel gebruikt<BR><!-- BBCode Start --><IMG SRC="/web/20100705164720im_/http://groups.msn.com/_Secure/0RwDSAiQWcSeeZtPScgEKAi8OxseKEVzzUXh!TLKGA1HLPDO74J*BKnuozTeP5In7SDO9TNggbU3ylCZVpqSjULS6CJt*FEY4XD0Y*6t8BIs/Image1.jpg?dc=4675461576862155235" BORDER="0"><!-- BBCode End --><BR><BR>en hetzelfde geld voor snas z'n creatie<BR><!-- BBCode Start --><IMG SRC="/web/20100705164720im_/http://groups.msn.com/_Secure/0RQCiAmkVSfSh4Oj4n0dqktztSgqLn4GDm4JmMURMrd4!3gwX2k6sT!EjJz5Qa0dXK8JhpoJi9GTDt38eRQNm2pQpOPuNxi568Rigkkax*bY/Scr3.bmp?dc=4675461862865559347" BORDER="0"><!-- BBCode End --><BR><BR><font size=1>[ Dit bericht is bewerkt door: Superman op 29-02-2004 om 17:14 ]</font></FONT><BR>
+<hr width="100%" noshade size="1">&nbsp<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2135"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/profile.gif" border=0 alt="Bekijk profiel van  Superman"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2135"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/email.gif" BORDER=0 ALT="E-mail Superman"></a>
+&nbsp;<a href="/web/20100705164720/http://groups.msn.com/supermansGroup" TARGET="_blank"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/www_icon.gif" BORDER=0 ALT="Naar de website van Superman"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2135"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/msnm.gif" border="0"></a>&nbsp;<IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/div.gif">
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/editpost.php?post_id=189605"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/edit.gif" border=0 alt="Bewerk/verwijder dit bericht"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/reply.php?topic_id=10874&amp;post_id=189605&amp;quote=1"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/quote.gif" BORDER="0" alt="Antwoorden met quote"></a>
+</TD></TR><TR BGCOLOR="#DFDFDF" ALIGN="LEFT">
+<TD width="150" valign=top><FONT COLOR="#000000"><b>Levis</b></FONT><BR><FONT SIZE="1" COLOR="#000000"><B>Anti_Spijkerbroek</B></font><BR><FONT SIZE="1" COLOR="#000000">Lid # 2042</font><BR><BR><FONT SIZE="1" COLOR="#000000">Geregistreerd op: 02-06-2003</FONT><br><FONT SIZE="1" COLOR="#000000">Berichten: 5916</FONT><BR><FONT SIZE="1" COLOR="#000000">Locatie: hier<br></FONT></td><TD><a name="189615" href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/189615#189615"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/misc/file_new.gif" border="0"></a><FONT SIZE="1" COLOR="#000000">Geplaatst: 29-02-2004 om 17:28&nbsp;&nbsp;&nbsp<script type="text/javascript">postids[postids.length]=['189615']</script><hr width="100%" noshade size="1"></font>
+
+<FONT COLOR="#000000">snas kennende zal hij hier veel aan willen veranderen <IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/smiles/icon_razz.gif"> , toch is het niet slecht en ik hoop nog veel dingen te zien <IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/smiles/icon_razz.gif"> .
+<BR>_________________<BR>People are stupid. They will believe a lie because they want to believe it's true, or because they are afraid it might be true.</FONT><BR>
+<hr width="100%" noshade size="1">&nbsp<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2042"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/profile.gif" border=0 alt="Bekijk profiel van  Levis"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2042"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/email.gif" BORDER=0 ALT="E-mail Levis"></a>
+&nbsp;<a href="/web/20100705164720/http://rctmajesty.rct-guide.nl/" TARGET="_blank"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/www_icon.gif" BORDER=0 ALT="Naar de website van Levis"></a>
+&nbsp;<a href="aim:goim?screenname=rctlevis&amp;message=Hi+rctlevis.+Are+you+there?"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/aim.gif" border="0"></a>&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2042"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/msnm.gif" border="0"></a>&nbsp;<IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/div.gif">
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/editpost.php?post_id=189615"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/edit.gif" border=0 alt="Bewerk/verwijder dit bericht"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/reply.php?topic_id=10874&amp;post_id=189615&amp;quote=1"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/quote.gif" BORDER="0" alt="Antwoorden met quote"></a>
+</TD></TR><TR BGCOLOR="#F0F0F0" ALIGN="LEFT">
+<TD width="150" valign=top><FONT COLOR="#000000"><b>Wessel</b></FONT><BR><FONT SIZE="1" COLOR="#000000"><B>God</B></font><BR><FONT SIZE="1" COLOR="#000000">Lid # 1748</font><BR><BR><FONT SIZE="1" COLOR="#000000">Geregistreerd op: 26-03-2003</FONT><br><FONT SIZE="1" COLOR="#000000">Berichten: 3441</FONT></td><TD><a name="189666" href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/189666#189666"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/misc/file_new.gif" border="0"></a><FONT SIZE="1" COLOR="#000000">Geplaatst: 29-02-2004 om 18:22&nbsp;&nbsp;&nbsp<script type="text/javascript">postids[postids.length]=['189666']</script><hr width="100%" noshade size="1"></font>
+
+<FONT COLOR="#000000">Leuk begin, alleen zijn die rode tegeltjes nogal druk... Verder nog iets over de topictitel: ik weet niet of het klopt, maar volgens mij is het ''Superman &amp; Snas present'' zonder -s?<BR><BR>Succes ermee! <IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/smiles/icon_smile.gif">
+<BR>_________________<BR><!-- BBCode Start --><B><!-- BBCode u2 Start --><A HREF="/web/20100705164720/http://www.loopings.nl/cc.php" TARGET="_blank">Hoeveel achtbanen heb jij bereden?</A><!-- BBCode u2 End --></B><!-- BBCode End --></FONT><BR>
+<hr width="100%" noshade size="1">&nbsp<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=1748"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/profile.gif" border=0 alt="Bekijk profiel van  Wessel"></a>
+&nbsp;<a href="/web/20100705164720/http://www.loopings.nl/" TARGET="_blank"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/www_icon.gif" BORDER=0 ALT="Naar de website van Wessel"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=1748"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/msnm.gif" border="0"></a>&nbsp;<IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/div.gif">
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/editpost.php?post_id=189666"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/edit.gif" border=0 alt="Bewerk/verwijder dit bericht"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/reply.php?topic_id=10874&amp;post_id=189666&amp;quote=1"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/quote.gif" BORDER="0" alt="Antwoorden met quote"></a>
+</TD></TR><TR BGCOLOR="#DFDFDF" ALIGN="LEFT">
+<TD width="150" valign=top><FONT COLOR="#000000"><b>Snas</b></FONT><BR><FONT SIZE="1" COLOR="#000000"><B>Admin | RCTMajesty</B></font><BR><FONT SIZE="1" COLOR="#000000">Lid # 1672</font><BR><BR><FONT SIZE="1" COLOR="#000000">Geregistreerd op: 05-03-2003</FONT><br><FONT SIZE="1" COLOR="#000000">Berichten: 3949</FONT><BR><FONT SIZE="1" COLOR="#000000">Locatie: harmelen (bij utrecht)<br></FONT></td><TD><a name="189678" href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/189678#189678"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/misc/file_new.gif" border="0"></a><FONT SIZE="1" COLOR="#000000">Geplaatst: 29-02-2004 om 18:32&nbsp;&nbsp;&nbsp<script type="text/javascript">postids[postids.length]=['189678']</script><hr width="100%" noshade size="1"></font>
+
+<FONT COLOR="#000000">ik ben de komende 17 dagen weg en dan ga ik dus een paar dingen in elkaar zetten. de bedoeling is om er realistiesche attrackties te bouwen (of het helemaal lukt is wat anders) en ik heb wel wat iedeen. <BR>ik beschik niet over internet dus helaas zullen jullie ook echt 17 dagen niets van mij horen. maar daarna heb ik natuurlijk (hopelijk) veel om te laten zien <IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/smiles/icon_biggrin.gif"><BR>en wessel. als ik alleen maar bruin gebruikte werd het te eenzijdig. er moest iets op komen wat het brak. en dit was de leukste combinatie dus vandaar dat pad.<BR><BR>hier is nog een overzicht van het plein.<BR><!-- BBCode Start --><IMG SRC="/web/20100705164720im_/http://groups.msn.com/_Secure/0QwAnA5IUIsJFt8AZsLLNC5aIZtZj1Rb0VM45nTtx7DhMBqol!mTGfj01UI59GGOihAi7JSwF28fLoruqG!sexgZTC5o6qRKzGSLY!7FzxBI/plein.jpg?dc=4675461870921556330" BORDER="0"><!-- BBCode End --><BR>_________________<BR><!-- BBCode u2 Start --><A HREF="/web/20100705164720/http://groups.msn.com/rct2screens/_whatsnew.msnw" TARGET="_blank"><!-- BBCode Start --><B>mijn site</B><!-- BBCode End --></A><!-- BBCode u2 End --><BR><BR><!-- BBCode u2 Start --><A HREF="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic.php?mode=viewtopic&amp;topic=7808&amp;forum=24&amp;start=0" TARGET="_blank"><!-- BBCode Start --><B>Third-Theme</B><!-- BBCode End --></A><!-- BBCode u2 End --><BR><BR><font size=1>[ Dit bericht is bewerkt door: snas op 29-02-2004 om 18:38 ]</font></FONT><BR>
+<hr width="100%" noshade size="1">&nbsp<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=1672"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/profile.gif" border=0 alt="Bekijk profiel van  Snas"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=1672"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/email.gif" BORDER=0 ALT="E-mail Snas"></a>
+&nbsp;<a href="/web/20100705164720/http://groups.msn.com/rct2screens/_whats" TARGET="_blank"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/www_icon.gif" BORDER=0 ALT="Naar de website van Snas"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=1672"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/msnm.gif" border="0"></a>&nbsp;<IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/div.gif">
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/editpost.php?post_id=189678"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/edit.gif" border=0 alt="Bewerk/verwijder dit bericht"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/reply.php?topic_id=10874&amp;post_id=189678&amp;quote=1"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/quote.gif" BORDER="0" alt="Antwoorden met quote"></a>
+</TD></TR><TR BGCOLOR="#F0F0F0" ALIGN="LEFT">
+<TD width="150" valign=top><FONT COLOR="#000000"><b>Paul</b></FONT><BR><FONT SIZE="1" COLOR="#000000"><B>God</B></font><BR><FONT SIZE="1" COLOR="#000000">Lid # 2565</font><BR><BR><FONT SIZE="1" COLOR="#000000">Geregistreerd op: 25-10-2003</FONT><br><FONT SIZE="1" COLOR="#000000">Berichten: 2661</FONT><BR><FONT SIZE="1" COLOR="#000000">Locatie: Drunen<br></FONT></td><TD><a name="189763" href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/189763#189763"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/misc/file_new.gif" border="0"></a><FONT SIZE="1" COLOR="#000000">Geplaatst: 29-02-2004 om 19:45&nbsp;&nbsp;&nbsp<script type="text/javascript">postids[postids.length]=['189763']</script><hr width="100%" noshade size="1"></font>
+
+<FONT COLOR="#000000">Ziet er goed uit ben benieuwd wat het park voor de rest gaat brengen alleen is het af en toe te druk maar het is wel mooi  in dit geval suc6!
+<BR>_________________<BR><!-- BBCode u2 Start --><A HREF="/web/20100705164720/http://www.rct-guide.nl/forum/viewtopic.php?t=934" TARGET="_blank">The Biggest Roller Coaster Tycoon 2 Project Ever!</A><!-- BBCode u2 End --></FONT><BR>
+<hr width="100%" noshade size="1">&nbsp<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2565"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/profile.gif" border=0 alt="Bekijk profiel van  Paul"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rct-guide.nl/" TARGET="_blank"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/www_icon.gif" BORDER=0 ALT="Naar de website van Paul"></a>
+&nbsp;<IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/div.gif">
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/editpost.php?post_id=189763"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/edit.gif" border=0 alt="Bewerk/verwijder dit bericht"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/reply.php?topic_id=10874&amp;post_id=189763&amp;quote=1"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/quote.gif" BORDER="0" alt="Antwoorden met quote"></a>
+</TD></TR><TR BGCOLOR="#DFDFDF" ALIGN="LEFT">
+<TD width="150" valign=top><FONT COLOR="#000000"><b>Ajacied4</b></FONT><BR><FONT SIZE="1" COLOR="#000000"><B>God</B></font><BR><FONT SIZE="1" COLOR="#000000">Lid # 2111</font><BR><BR><FONT SIZE="1" COLOR="#000000">Geregistreerd op: 20-06-2003</FONT><br><FONT SIZE="1" COLOR="#000000">Berichten: 2794</FONT></td><TD><a name="189889" href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/189889#189889"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/misc/file_new.gif" border="0"></a><FONT SIZE="1" COLOR="#000000">Geplaatst: 29-02-2004 om 21:43&nbsp;&nbsp;&nbsp<script type="text/javascript">postids[postids.length]=['189889']</script><hr width="100%" noshade size="1"></font>
+
+<FONT COLOR="#000000">Ziet er leuk en rustgevend uit alleen met die rode tegeltjes valt het wel mee dan.. <BR>veel succes nog <IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/smiles/icon_wink.gif">
+<BR>_________________<BR></FONT><BR>
+<hr width="100%" noshade size="1">&nbsp<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2111"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/profile.gif" border=0 alt="Bekijk profiel van  Ajacied4"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2111"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/email.gif" BORDER=0 ALT="E-mail Ajacied4"></a>
+&nbsp;<IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/div.gif">
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/editpost.php?post_id=189889"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/edit.gif" border=0 alt="Bewerk/verwijder dit bericht"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/reply.php?topic_id=10874&amp;post_id=189889&amp;quote=1"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/quote.gif" BORDER="0" alt="Antwoorden met quote"></a>
+</TD></TR><TR BGCOLOR="#F0F0F0" ALIGN="LEFT">
+<TD width="150" valign=top><FONT COLOR="#000000"><b>Superman</b></FONT><BR><FONT SIZE="1" COLOR="#000000"><B>Godlike</B></font><BR><FONT SIZE="1" COLOR="#000000">Lid # 2135</font><BR><BR><FONT SIZE="1" COLOR="#000000">Geregistreerd op: 26-06-2003</FONT><br><FONT SIZE="1" COLOR="#000000">Berichten: 1130</FONT><BR><FONT SIZE="1" COLOR="#000000">Locatie: Asten<br></FONT></td><TD><a name="190838" href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/190838#190838"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/misc/file_new.gif" border="0"></a><FONT SIZE="1" COLOR="#000000">Geplaatst: 02-03-2004 om 19:33&nbsp;&nbsp;&nbsp<script type="text/javascript">postids[postids.length]=['190838']</script><hr width="100%" noshade size="1"></font>
+
+<FONT COLOR="#000000">ik heb een naam bedacht, ik weet alleen nog niet of snas het met deze naam eens is.<BR>en ook maar meteen wat er omheen gemaakt:<BR><BR><!-- BBCode Start --><IMG SRC="/web/20100705164720im_/http://groups.msn.com/_Secure/0UADOAmIZwBg6w*e3jtMo6ckeyZqa4vs5C!!ZEgcg88n35mrflHeLjV3Yyy!CtAFuFYxoMQ0INnfiJ7wdbRGlKKkr!1xyHdbpFXaIr9eBsQQN4jgXMqoBG3SCoxkAcKMZ/Niva%20Anicorns.jpg?dc=4675462151221859486" BORDER="0"><!-- BBCode End --></FONT><BR>
+<hr width="100%" noshade size="1">&nbsp<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2135"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/profile.gif" border=0 alt="Bekijk profiel van  Superman"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2135"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/email.gif" BORDER=0 ALT="E-mail Superman"></a>
+&nbsp;<a href="/web/20100705164720/http://groups.msn.com/supermansGroup" TARGET="_blank"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/www_icon.gif" BORDER=0 ALT="Naar de website van Superman"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2135"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/msnm.gif" border="0"></a>&nbsp;<IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/div.gif">
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/editpost.php?post_id=190838"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/edit.gif" border=0 alt="Bewerk/verwijder dit bericht"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/reply.php?topic_id=10874&amp;post_id=190838&amp;quote=1"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/quote.gif" BORDER="0" alt="Antwoorden met quote"></a>
+</TD></TR><TR BGCOLOR="#DFDFDF" ALIGN="LEFT">
+<TD width="150" valign=top><FONT COLOR="#000000"><b>Riddler</b></FONT><BR><FONT SIZE="1" COLOR="#000000"><B>Godlike</B></font><BR><FONT SIZE="1" COLOR="#000000">Lid # 747</font><BR><BR><FONT SIZE="1" COLOR="#000000">Geregistreerd op: 11-10-2002</FONT><br><FONT SIZE="1" COLOR="#000000">Berichten: 1238</FONT><BR><FONT SIZE="1" COLOR="#000000">Locatie: geldrop<br></FONT></td><TD><a name="192379" href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/192379#192379"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/misc/file_new.gif" border="0"></a><FONT SIZE="1" COLOR="#000000">Geplaatst: 06-03-2004 om 10:51&nbsp;&nbsp;&nbsp<script type="text/javascript">postids[postids.length]=['192379']</script><hr width="100%" noshade size="1"></font>
+
+<FONT COLOR="#000000">Het heeft wel een gezellig sfeertje.<BR>Het ziet er ook goed gediateelt uit.<BR><BR>hoop dat de volgende promonade nog mooier wordt!<BR><BR>off-topic:Superman heb je de groeten van marco gehad <IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/smiles/icon_wink.gif">
+<BR>_________________<BR>i'm back!!!!<BR><BR>[]</FONT><BR>
+<hr width="100%" noshade size="1">&nbsp<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=747"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/profile.gif" border=0 alt="Bekijk profiel van  Riddler"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=747"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/email.gif" BORDER=0 ALT="E-mail Riddler"></a>
+&nbsp;<a href="/web/20100705164720/http://www.vote4me.nl/medusa" TARGET="_blank"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/www_icon.gif" BORDER=0 ALT="Naar de website van Riddler"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=747"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/msnm.gif" border="0"></a>&nbsp;<IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/div.gif">
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/editpost.php?post_id=192379"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/edit.gif" border=0 alt="Bewerk/verwijder dit bericht"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/reply.php?topic_id=10874&amp;post_id=192379&amp;quote=1"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/quote.gif" BORDER="0" alt="Antwoorden met quote"></a>
+</TD></TR><TR BGCOLOR="#F0F0F0" ALIGN="LEFT">
+<TD width="150" valign=top><FONT COLOR="#000000"><b>Snas</b></FONT><BR><FONT SIZE="1" COLOR="#000000"><B>Admin | RCTMajesty</B></font><BR><FONT SIZE="1" COLOR="#000000">Lid # 1672</font><BR><BR><FONT SIZE="1" COLOR="#000000">Geregistreerd op: 05-03-2003</FONT><br><FONT SIZE="1" COLOR="#000000">Berichten: 3949</FONT><BR><FONT SIZE="1" COLOR="#000000">Locatie: harmelen (bij utrecht)<br></FONT></td><TD><a name="197634" href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/197634#197634"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/misc/file_new.gif" border="0"></a><FONT SIZE="1" COLOR="#000000">Geplaatst: 18-03-2004 om 23:32&nbsp;&nbsp;&nbsp<script type="text/javascript">postids[postids.length]=['197634']</script><hr width="100%" noshade size="1"></font>
+
+<FONT COLOR="#000000">het is nog even onbeken of dit doorgaat of dat we hetgeen wat we gemaakt hebben apart gaan presenteren.<BR><BR>_________________<BR><!-- BBCode u2 Start --><A HREF="/web/20100705164720/http://groups.msn.com/rct2screens/_whatsnew.msnw" TARGET="_blank"><!-- BBCode Start --><B>mijn site</B><!-- BBCode End --></A><!-- BBCode u2 End --><BR><BR><!-- BBCode u2 Start --><A HREF="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic.php?mode=viewtopic&amp;topic=7808&amp;forum=24&amp;start=0" TARGET="_blank"><!-- BBCode Start --><B>Third-Theme</B><!-- BBCode End --></A><!-- BBCode u2 End --><BR><BR><BR><font size=1>[ Dit bericht is bewerkt door: snas op 19-03-2004 om 16:02 ]</font><BR><BR><font size=1>[ Dit bericht is bewerkt door: snas op 19-03-2004 om 16:11 ]</font></FONT><BR>
+<hr width="100%" noshade size="1">&nbsp<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=1672"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/profile.gif" border=0 alt="Bekijk profiel van  Snas"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=1672"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/email.gif" BORDER=0 ALT="E-mail Snas"></a>
+&nbsp;<a href="/web/20100705164720/http://groups.msn.com/rct2screens/_whats" TARGET="_blank"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/www_icon.gif" BORDER=0 ALT="Naar de website van Snas"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=1672"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/msnm.gif" border="0"></a>&nbsp;<IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/div.gif">
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/editpost.php?post_id=197634"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/edit.gif" border=0 alt="Bewerk/verwijder dit bericht"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/reply.php?topic_id=10874&amp;post_id=197634&amp;quote=1"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/quote.gif" BORDER="0" alt="Antwoorden met quote"></a>
+</TD></TR><TR BGCOLOR="#DFDFDF" ALIGN="LEFT">
+<TD width="150" valign=top><FONT COLOR="#000000"><b>Superman</b></FONT><BR><FONT SIZE="1" COLOR="#000000"><B>Godlike</B></font><BR><FONT SIZE="1" COLOR="#000000">Lid # 2135</font><BR><BR><FONT SIZE="1" COLOR="#000000">Geregistreerd op: 26-06-2003</FONT><br><FONT SIZE="1" COLOR="#000000">Berichten: 1130</FONT><BR><FONT SIZE="1" COLOR="#000000">Locatie: Asten<br></FONT></td><TD><a name="197738" href="/web/20100705164720/http://www.rctholland.nl/forum/viewtopic/post/197738#197738"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/misc/file_new.gif" border="0"></a><FONT SIZE="1" COLOR="#000000">Geplaatst: 19-03-2004 om 16:08&nbsp;&nbsp;&nbsp<script type="text/javascript">postids[postids.length]=['197738']</script><hr width="100%" noshade size="1"></font>
+
+<FONT COLOR="#000000"><!-- BBCode Start --><B>STOPPED</B><!-- BBCode End --></FONT><BR>
+<hr width="100%" noshade size="1">&nbsp<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2135"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/profile.gif" border=0 alt="Bekijk profiel van  Superman"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2135"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/email.gif" BORDER=0 ALT="E-mail Superman"></a>
+&nbsp;<a href="/web/20100705164720/http://groups.msn.com/supermansGroup" TARGET="_blank"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/www_icon.gif" BORDER=0 ALT="Naar de website van Superman"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/members/profile.php?mode=view&amp;user=2135"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/msnm.gif" border="0"></a>&nbsp;<IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/div.gif">
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/editpost.php?post_id=197738"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/edit.gif" border=0 alt="Bewerk/verwijder dit bericht"></a>
+&nbsp;<a href="/web/20100705164720/http://www.rctholland.nl/forum/reply.php?topic_id=10874&amp;post_id=197738&amp;quote=1"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/quote.gif" BORDER="0" alt="Antwoorden met quote"></a>
+</TD></TR>
+			</table>
+		</td>
+	</tr>
+</table>
+</form>
+
+<table align="CENTER" border="0" width="100%">
+	<tr>
+		<td valign="TOP">
+			<a href="/web/20100705164720/http://www.rctholland.nl/forum/newtopic.php?forum_id=5"><img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/new_topic.gif" border="0"></a>&nbsp;
+								<img src="/web/20100705164720im_/http://www.rctholland.nl/forum/images/reply_locked.gif" border="0">
+					</td>
+		<td valign="TOP" align="RIGHT">
+							<form action="/web/20100705164720/http://www.rctholland.nl/forum/viewforum.php" method="GET">
+	<select name="forum"><option value="-1">Selecteer een Forum</option>
+	<OPTION VALUE="-1">&nbsp;</OPTION>
+<OPTION VALUE="-1">Mededelingen</OPTION>
+<OPTION VALUE="-1">----------------</OPTION>
+<OPTION VALUE="1">Mededelingenforum</OPTION>
+<OPTION VALUE="-1">&nbsp;</OPTION>
+<OPTION VALUE="-1">RollerCoaster Tycoon - Algemeen</OPTION>
+<OPTION VALUE="-1">----------------</OPTION>
+<OPTION VALUE="2">RollerCoaster Tycoon</OPTION>
+<OPTION VALUE="3">RollerCoaster Tycoon 2</OPTION>
+<OPTION VALUE="4">RollerCoaster Tycoon 3</OPTION>
+<OPTION VALUE="18">RCT2 Groepspark </OPTION>
+<OPTION VALUE="-1">&nbsp;</OPTION>
+<OPTION VALUE="-1">RollerCoaster Tycoon - Parken</OPTION>
+<OPTION VALUE="-1">----------------</OPTION>
+<OPTION VALUE="5">Parkhoekje</OPTION>
+<OPTION VALUE="20">Wedstrijdhoekje</OPTION>
+<OPTION VALUE="-1">&nbsp;</OPTION>
+<OPTION VALUE="-1">Computers & Consoles</OPTION>
+<OPTION VALUE="-1">----------------</OPTION>
+<OPTION VALUE="6">PC Games</OPTION>
+<OPTION VALUE="7">Consoles</OPTION>
+<OPTION VALUE="8">Wereld Wijd Web</OPTION>
+<OPTION VALUE="-1">&nbsp;</OPTION>
+<OPTION VALUE="-1">Off-topic</OPTION>
+<OPTION VALUE="-1">----------------</OPTION>
+<OPTION VALUE="9">Vuilnisbak</OPTION>
+<OPTION VALUE="10">Pretparken & Achtbanen</OPTION>
+<OPTION VALUE="11">Mediamekker</OPTION>
+<OPTION VALUE="-1">&nbsp;</OPTION>
+<OPTION VALUE="-1">RCTholland</OPTION>
+<OPTION VALUE="-1">----------------</OPTION>
+<OPTION VALUE="12">Lieve Crew</OPTION>
+<OPTION VALUE="13">Bugs & Featurerequests</OPTION>
+<OPTION VALUE="14">Klikhoekje</OPTION>
+<OPTION VALUE="-1">&nbsp;</OPTION>
+<OPTION VALUE="-1">RCT Holland Crew</OPTION>
+<OPTION VALUE="-1">----------------</OPTION>
+<OPTION VALUE="15">Moderator Crewforum</OPTION>
+<OPTION VALUE="16">Administrator Crewforum</OPTION>
+<OPTION VALUE="17">Trashcan</OPTION>
+<OPTION VALUE="-1">&nbsp;</OPTION>
+<OPTION VALUE="-1">RCTHolland</OPTION>
+<OPTION VALUE="-1">----------------</OPTION>
+<OPTION VALUE="0">No More Forums</OPTION>
+</SELECT>
+<INPUT TYPE="SUBMIT" VALUE="OK">
+</FORM>		</td>
+	</tr>
+</table>
+
+<p align="center">
+
+<a href="/web/20100705164720/http://www.rctholland.nl/forum/topicadmin.php?mode=unlock&amp;topic_id=10874"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/unlock_topic.gif" ALT="Ontgrendel Onderwerp" BORDER=0></a> <a href="/web/20100705164720/http://www.rctholland.nl/forum/topicadmin.php?mode=move&amp;topic_id=10874"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/move_topic.gif" ALT="Verplaats Onderwerp" BORDER=0></a> <a href="/web/20100705164720/http://www.rctholland.nl/forum/topicadmin.php?mode=del&amp;topic_id=10874"><IMG SRC="/web/20100705164720im_/http://www.rctholland.nl/forum/images/del_topic.gif" ALT="Verwijder Onderwerp" BORDER=0></a></CENTER>
+
+</p>
+
+
+</div>
+
+		   <p class="admin">Gebaseerd op <a href="/web/20100705164720/http://www.phpbb.com/" target="_blank">phpBB</a></p>
+		  </td>
+		  <td width="0"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/transparent.gif" width="5" height="5"></td>
+		 </tr>
+		</table>
+	   </td>
+	  </tr>
+	  <tr>
+	   <td width="100%" height="50"> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" height="50">
+         <tr> 
+          <td width="0" height="50" bgcolor="#CCCCCC" background="/web/20100705164720im_/http://www.rctholland.nl/images/layout/menu_back.gif"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/menu_bottom.gif" width="200" height="50"></td>
+          <td width="0" height="50"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/transparent.gif" width="5" height="5"></td>
+          <td width="100%" height="50" align="center"></td>
+         </tr>
+        </table>
+       </td>
+   </tr>
+   <tr> 
+    <td width="100%" height="25"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="25">
+        <tr> 
+          <td width="0" height="25" bgcolor="#999999" background="/web/20100705164720im_/http://www.rctholland.nl/images/layout/bottom_left.gif"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/transparent.gif" width="200" height="25"></td>
+          <td width="100%" height="25" bgcolor="#999999" background="/web/20100705164720im_/http://www.rctholland.nl/images/layout/bottom_middle.gif" align="left">
+		  	<p class="footer">
+				<a href="/web/20100705164720/http://www.rctholland.nl/about/legal/copyright.php">Copyright &copy 2001-2010 RCT Holland. Alle rechten voorbehouden.</a>
+				<a href="/web/20100705164720/http://www.rctholland.nl/about/legal/terms.php">Gebruikersvoorwaarden.</a>
+				<a href="/web/20100705164720/http://www.rctholland.nl/about/legal/privacy.php">Privacyverklaring.</a>
+			</p>
+		  </td>
+          <td width="0" height="25"><img src="/web/20100705164720im_/http://www.rctholland.nl/images/layout/bottom_right.gif" width="10" height="25"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 16:47:20 Jul 5, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:42:06 Mar 13, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
